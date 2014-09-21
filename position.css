@@ -1,0 +1,29 @@
+/* Position Stylesheet */
+
+#wrap {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1 {
+	clear: both;
+	position: absolute;
+	top: 10%;
+	left: 93%;
+}
+
+#nr4{
+	position: relative;
+	left: 56px;
+	top: 1.3em;
+	width: 7em;
+}
+
+.xxx {
+	position: fixed;
+	top: 27px;
+	left: 45px;
+	width: 10em;
+	height: 9em;
+	overflow: auto;
+}

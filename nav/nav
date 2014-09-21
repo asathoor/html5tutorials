@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<title>Web page with navigation</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+
+<div class="wrap">
+
+<div id="sidebar">
+
+	<nav role="navigation">
+		<ul>
+			<li>
+				<a href="page1.htm">
+					Page 1
+				</a>		
+			</li>
+			<li>
+				<a href="page2.htm">
+					Page 2
+				</a>		
+			</li>
+			<li>
+				<a href="page3.htm">
+					Page 3
+				</a>		
+			</li>
+		</ul>
+	</nav>
+
+
+<header>
+
+	<h1>The Navigation Workshop</h1>
+
+	<p>
+		During this workshop you have to design navigation - both horizontal and vertical. With cool hover effects (except for mobile navigation of course). The workshop runs like this:	
+	</p>
+	<ol>
+		<li>Form groups of 3 - 4 students</li>
+		<li>Make a webpage hierarchy for a webpage with at least as many subpages as there are members in the group.</li>
+		<li>Agree on a basic stylesheet.</li>
+		<li>Let there be at least one breakpoint - so that your webpage will have one design on smaller screens and another design on say laptops.</li>
+		<li>Design navigation options - horisontal and vertical menus with cool hover color effects</li>
+		<li>Design navigation by well chosen icons</li>
+		<li>Make navigation by text</li>
+		<li>Add a site map (yep this could be one of the sub pages).</li>
+		<li>Add a design manual in HTML5 / CSS (tip: @media print - again yeah this could be one of your sub pages)</li>	
+		<li>Of course your navigation bar <em>must be present at all your webpages</em> ;-)</li>	
+	</ol>
+	
+	<p>
+		Use icons, images and and custom backgrounds in your designs.	
+	</p>
+	<p>
+		Hand in your work at 13:45 as a group on Fronter. Then present your work to the class.	
+	</p>
+	<p>
+		More info found in your book - see the chapter on formatting lists and on how to mark navigation.	
+	</p>
+	
+
+
+</header>
+
+
+</div>
+
+<article>
+
+	<h2>The article title</h2>
+	
+	<div id="text">
+		<p>Pellentesque facilisis lorem nec cursus viverra. Nunc dignissim suscipit commodo. Nam laoreet, lacus eu condimentum blandit, nunc nisi accumsan tellus, nec molestie elit risus a lectus. Cras fringilla, ex nec dapibus ornare, nunc sem aliquam sapien, sed porttitor erat dui id neque. Praesent imperdiet, ipsum at congue pulvinar, tortor elit egestas felis, eget feugiat elit urna et ligula. In hac habitasse platea dictumst. Fusce venenatis pellentesque tellus, quis dictum sem congue a. Cras auctor sapien non augue fringilla, quis posuere augue fringilla. Suspendisse nec nisi mollis, vehicula augue a, accumsan dui. Etiam pretium semper lectus. Aenean maximus justo volutpat purus finibus, ut eleifend metus blandit. Aenean gravida hendrerit massa, iaculis vulputate ligula tempus sed. Maecenas tristique tortor id diam varius, vel hendrerit turpis consectetur. Quisque sodales, nunc nec pellentesque convallis, dolor elit lobortis nulla, eu semper tellus eros non odio.</p>
+
+		<p>Integer fermentum orci vitae dui bibendum rhoncus. Cras at orci commodo, pretium leo vel, sagittis justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus felis leo, dapibus non nisl eget, sagittis viverra massa. Aliquam pretium tortor nulla, nec hendrerit sem auctor ac. Nulla a ante mauris. Proin non purus et metus pulvinar cursus. Aenean in aliquet lacus. Mauris id enim quis erat iaculis viverra. Mauris aliquet volutpat sapien, nec commodo nulla vestibulum sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean egestas consectetur lacus, a tempor ligula consequat sit amet.</p>
+
+		<p>Vestibulum varius posuere enim eu venenatis. Praesent egestas orci porta congue tempor. Sed sed euismod dui, sed sollicitudin sem. Nunc tempus eleifend lectus in accumsan. Quisque convallis fringilla ipsum quis pellentesque. Nunc consectetur hendrerit tempor. Nunc sagittis risus id nibh blandit auctor. Curabitur pharetra turpis nunc, quis congue nunc euismod non. Duis nec rhoncus libero. Cras at mauris at est suscipit porttitor. Duis ut felis sed nisi vulputate aliquam vel ac quam.</p>
+
+		<p>Aliquam ornare ut neque sed rhoncus. Mauris semper sed arcu sed luctus. Curabitur eu interdum turpis, ac venenatis dui. Nam venenatis tempor semper. Maecenas hendrerit metus sed nisi lobortis ultricies. Integer eget felis consequat massa rutrum interdum sit amet eu turpis. Donec non urna blandit, tempor elit vel, mollis purus. Sed lacinia justo sed urna tincidunt, vel tincidunt neque malesuada. Sed nisi metus, volutpat eu nulla non, dictum condimentum eros. Mauris sollicitudin eget massa ac tempor.</p>
+	</div>
+
+</article>
+
+
+
+</div> <!-- end of wrap -->
+
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+/*
+* ZENGARDEN
+* By petj sept. 2014
+*/
+
+/* GOOGLE WEB FONTS */
+@import url("http://fonts.googleapis.com/css?family=Playball");
+@import url("http://fonts.googleapis.com/css?family=Noto+Sans");
+@import url("http://fonts.googleapis.com/css?family=Niconne");
+
+/* HTML tags */
+
+/* a google font is used here */
+body {
+	background: url("sand.png");
+	font-family: 'Noto Sans', Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+}
+
+
+/* use the google font in hx tags */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playball', cursive;
+	text-align: center;
+	font-size: 2em;
+	color: purple;
+}
+
+h1 {
+	color: orange;
+	font-weight: bold;
+	font-size: 4em;
+	z-index: -1;
+}
+
+
+header h2 {
+	font-family: 'Niconne', cursive;
+	font-size: 3em;	
+	color: purple;
+}
+
+/* Navigation */
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 1em;
+}
+
+/* Abbreviations */
+abbr {
+    position: relative;
+    color: green;
+}
+
+/* display abbreviation info */
+abbr:hover::after {
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    display: block;
+    padding: 1em;
+    background: #fff;
+    content: attr(title);
+    font-size: 0.6em;
+    opacity: 0.9;
+}
+
+/*
+p:first-letter { font-size : 300%; background-color: #000; color: #fff; } 
+p:first-line { line-height: 100%; } 
+p { text-indent: 45%; }
+*/
+
+/* Zengarden classes and ids */
+
+/* the wrapper centers the design */
+.page-wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	opacity: 0.8;
+	padding: 1.3em;
+}
+
+#zen-summary {
+	width: 20em;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 1.3em;
+	padding: 1.3em;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#zen-benefits {
+
+}
+
+/* use the extra tags for images */
+.extra1 {
+	position: absolute;
+	top: 10px;
+	height: 306px;
+	width: 306px;
+	border: 10px solid white;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("http://photos-f.ak.instagram.com/hphotos-ak-xfa1/10598597_1447156418894685_1180239671_a.jpg");
+}
+
+.extra2 {
+	position: absolute;
+	top: 250px;
+	height: 306px;
+	left: 75px;
+	width: 306px;
+	border: 10px solid white;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("http://scontent-b-ams.cdninstagram.com/hphotos-xfa1/t51.2885-15/10611287_552463634860156_1747502865_a.jpg");
+}

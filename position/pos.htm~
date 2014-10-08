@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>position</title>
+<meta name="generator" content="Bluefish 2.2.5" >
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<style>
+	body {
+		background-color: #000;	
+		color: #fff;
+		font-family: Verdana, sans-serif;
+	}
+	header {
+		position: relative;
+		top: -20px;
+		background-color: black;
+		opacity: 0.7;
+		color: #fff;
+		display: block;
+		border-bottom: 7px solid white;
+		text-align: center;	
+	}
+	h2 {
+		display: block;
+		position: relative;
+		text-align: center;
+		padding: 3em;
+			
+	}
+	p {
+		padding: 1.3em;	
+	}
+	#wrap {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;	
+		background-color: green;
+		height: 779px;
+		background: url(bosch.jpg);
+	}
+	div {
+		width: 26em;
+		height: 300px;
+		background-color: red;
+		border: 7px solid white;	
+		opacity: 0.7;
+	}
+	#p1 {
+		position: relative;
+		left: -7px;
+		top: 5px;
+		background-color: blue;	
+	}
+	#p2 {
+		position: relative;
+		left: -7px;
+		top: 10px;	
+		height: 8em;
+	}
+	#p3 {
+		position: relative;
+		left:453px;
+		top: -450px;
+		height: 31.3em;
+		width: 500px;
+		overflow: hidden;		
+	}
+	.mini:nth-child(even) {
+		position: relative;
+		float: left;
+		width: 6em;
+		height: 6em;
+		border: 1px solid white;
+		vertical-align: middle;
+		margin: 1px;
+		color: blue;
+		background-color: blue;	
+	}
+	.mini:nth-child(odd) {
+		position: relative;
+		float: left;
+		width: 6em;
+		height: 6em;
+		border: 1px solid white;
+		vertical-align: middle;
+		margin: 1px;
+		color: #fff;	
+	}
+
+</style>
+
+</head>
+<body>
+
+<div id="wrap">
+
+		<header>
+			<h2>From Wireframe to HTML</h2>		
+		</header>
+	
+		<div id="p1">
+		
+		<p>
+			<strong>Question:</strong> positioning - by the relative method.
+		</p>		
+		
+		<ol>
+			<li>Draw a wireframe</li>
+			<li>Position the divs etc. as in the wireframe</li>
+			<li>Float elements like pictures.</li>
+			<li>When you're satisfied - decorate with your graphics</li>
+			<li>This design was primarily made via relative positions</li>		
+		</ol>		
+		
+		</div>
+		
+		<div id="p2">
+			<p>
+			&copy; Per Thykjaer Jensen 2014 all rights reserved.
+			</p>	
+		</div>
+
+		<div id="p3">
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+			<div class="mini">x</div>
+		</div>
+
+</div>
+
+</body>
+</html>
